@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AchievementsTableViewCell" id="KGk-i7-Jjw" customClass="AchievementsTableViewCell" customModule="AraProje" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="300"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vPu-UD-lrE">
+                        <rect key="frame" x="41.666666666666657" y="7" width="90" height="90"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="SB6-0U-XyZ"/>
+                            <constraint firstAttribute="width" constant="90" id="gqk-ji-Lvx"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KRC-4r-QPD">
+                        <rect key="frame" x="151.66666666666666" y="7" width="90" height="90"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="pD9-IL-jLh"/>
+                            <constraint firstAttribute="height" constant="90" id="wyh-UW-O0h"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rsj-cO-Doe">
+                        <rect key="frame" x="261.66666666666669" y="7" width="90" height="90"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="DHt-A2-DFA"/>
+                            <constraint firstAttribute="height" constant="90" id="pbV-7e-ugd"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FLi-Fe-Ebp">
+                        <rect key="frame" x="41.666666666666657" y="105" width="90" height="90"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="O2M-sT-EZo"/>
+                            <constraint firstAttribute="height" constant="90" id="t4N-J6-4Sx"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="doz-0s-eXW">
+                        <rect key="frame" x="151.66666666666666" y="105" width="90" height="90"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="2La-gu-UG7"/>
+                            <constraint firstAttribute="height" constant="90" id="IFh-nr-osf"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Grc-h4-wdz">
+                        <rect key="frame" x="261.66666666666669" y="105" width="90" height="90"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="144-ao-DEe"/>
+                            <constraint firstAttribute="height" constant="90" id="333-r9-BmM"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j1i-2Y-JHn">
+                        <rect key="frame" x="41.666666666666657" y="203" width="90" height="90"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="2Hu-ge-Wff"/>
+                            <constraint firstAttribute="height" constant="90" id="MmV-Qa-0b8"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Acb-VY-Qe5">
+                        <rect key="frame" x="151.66666666666666" y="203" width="90" height="90"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="395-KK-QEI"/>
+                            <constraint firstAttribute="width" constant="90" id="TyG-Vx-nk3"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tph-EB-ih0">
+                        <rect key="frame" x="261.66666666666669" y="203" width="90" height="90"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="5Oy-qs-g9H"/>
+                            <constraint firstAttribute="width" constant="90" id="I0N-1H-PDF"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="j1i-2Y-JHn" firstAttribute="top" secondItem="FLi-Fe-Ebp" secondAttribute="bottom" constant="8" symbolic="YES" id="3OB-fg-Ze3"/>
+                    <constraint firstItem="j1i-2Y-JHn" firstAttribute="top" secondItem="Acb-VY-Qe5" secondAttribute="top" id="5zA-eE-XA5"/>
+                    <constraint firstItem="FLi-Fe-Ebp" firstAttribute="top" secondItem="doz-0s-eXW" secondAttribute="top" id="7s3-rC-iFo"/>
+                    <constraint firstItem="rsj-cO-Doe" firstAttribute="leading" secondItem="KRC-4r-QPD" secondAttribute="trailing" constant="20" id="7vZ-Wg-7Tp"/>
+                    <constraint firstItem="vPu-UD-lrE" firstAttribute="top" secondItem="KRC-4r-QPD" secondAttribute="top" id="BWJ-9R-aCf"/>
+                    <constraint firstItem="FLi-Fe-Ebp" firstAttribute="leading" secondItem="j1i-2Y-JHn" secondAttribute="leading" id="Cfn-vU-OAA"/>
+                    <constraint firstItem="FLi-Fe-Ebp" firstAttribute="top" secondItem="vPu-UD-lrE" secondAttribute="bottom" constant="8" symbolic="YES" id="NyR-KL-bTG"/>
+                    <constraint firstItem="vPu-UD-lrE" firstAttribute="leading" secondItem="FLi-Fe-Ebp" secondAttribute="leading" id="OUS-Rs-yDf"/>
+                    <constraint firstItem="rsj-cO-Doe" firstAttribute="leading" secondItem="Grc-h4-wdz" secondAttribute="leading" id="Q71-aw-lJZ"/>
+                    <constraint firstItem="Acb-VY-Qe5" firstAttribute="top" secondItem="tph-EB-ih0" secondAttribute="top" id="Qen-lC-wFs"/>
+                    <constraint firstItem="KRC-4r-QPD" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="RKr-ew-GC7"/>
+                    <constraint firstItem="doz-0s-eXW" firstAttribute="leading" secondItem="Acb-VY-Qe5" secondAttribute="leading" id="T8x-Av-IfD"/>
+                    <constraint firstItem="FLi-Fe-Ebp" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="WTs-nM-NXW"/>
+                    <constraint firstItem="doz-0s-eXW" firstAttribute="top" secondItem="Grc-h4-wdz" secondAttribute="top" id="Wa0-Aw-Z35"/>
+                    <constraint firstItem="Grc-h4-wdz" firstAttribute="leading" secondItem="tph-EB-ih0" secondAttribute="leading" id="eHt-Pl-YOu"/>
+                    <constraint firstItem="KRC-4r-QPD" firstAttribute="leading" secondItem="doz-0s-eXW" secondAttribute="leading" id="g6G-in-wKp"/>
+                    <constraint firstItem="KRC-4r-QPD" firstAttribute="top" secondItem="rsj-cO-Doe" secondAttribute="top" id="kYw-nI-J1n"/>
+                    <constraint firstItem="KRC-4r-QPD" firstAttribute="leading" secondItem="vPu-UD-lrE" secondAttribute="trailing" constant="20" id="xTh-NL-QgI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="advancedAchievement" destination="Acb-VY-Qe5" id="tHB-w1-Wyx"/>
+                <outlet property="beginnerAchievement" destination="FLi-Fe-Ebp" id="UJV-Xs-bxa"/>
+                <outlet property="elementaryAchievement" destination="doz-0s-eXW" id="md6-EV-YMM"/>
+                <outlet property="firstOneHundredWordsAchievement" destination="KRC-4r-QPD" id="RyD-BK-cpb"/>
+                <outlet property="firstPronunciationAchievement" destination="rsj-cO-Doe" id="Nmt-bY-2vE"/>
+                <outlet property="firstTenWordsAchievement" destination="vPu-UD-lrE" id="IHg-Xj-DoF"/>
+                <outlet property="intermediateAchievement" destination="Grc-h4-wdz" id="fcN-Mt-cgm"/>
+                <outlet property="proficiencyAchievement" destination="tph-EB-ih0" id="GnE-lr-lWh"/>
+                <outlet property="upperIntermediateAchievement" destination="j1i-2Y-JHn" id="Yhq-bp-WnW"/>
+            </connections>
+            <point key="canvasLocation" x="138.1679389312977" y="19.718309859154932"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

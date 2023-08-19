@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "dswaveformimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dmrschmidt/DSWaveformImage",
+      "state" : {
+        "revision" : "71cdeb2fbf96fc5aff7168b4ca443e36d20617c1",
+        "version" : "13.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro.ttf">
+            <string>SFPro-Bold</string>
+            <string>SFPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="WordTableViewCell" rowHeight="70" id="KGk-i7-Jjw" customClass="WordTableViewCell" customModule="AraProje" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Turkish Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N23-TY-5Gr">
+                        <rect key="frame" x="12" y="44.333333333333336" width="290" height="15.666666666666664"/>
+                        <fontDescription key="fontDescription" name="SFPro-Regular" family="SF Pro" pointSize="13"/>
+                        <color key="textColor" red="0.5073179786021893" green="0.5073179786021893" blue="0.5073179786021893" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ch-xE-xS4">
+                        <rect key="frame" x="348" y="18" width="36" height="33.999999999999986"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="tintColor" red="0.3686274886" green="0.70980393890000004" blue="0.37647059560000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" backgroundImage="mic.circle.fill" catalog="system"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ofh-2h-VOr">
+                        <rect key="frame" x="307" y="18" width="36" height="33.999999999999986"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="tintColor" red="0.3686274886" green="0.70980393890000004" blue="0.37647059560000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" backgroundImage="speaker.wave.2.circle.fill" catalog="system"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38e-HQ-Z1o">
+                        <rect key="frame" x="12" y="10" width="290" height="15.666666666666664"/>
+                        <fontDescription key="fontDescription" name="SFPro-Bold" family="SF Pro" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="38e-HQ-Z1o" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="9Ph-mS-naK"/>
+                    <constraint firstItem="N23-TY-5Gr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="AJ6-rN-lbU"/>
+                    <constraint firstAttribute="trailing" secondItem="N23-TY-5Gr" secondAttribute="trailing" constant="91" id="DS3-mA-Ulu"/>
+                    <constraint firstItem="38e-HQ-Z1o" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="Igw-hX-S02"/>
+                    <constraint firstAttribute="bottom" secondItem="N23-TY-5Gr" secondAttribute="bottom" constant="10" id="T2h-io-6kJ"/>
+                    <constraint firstAttribute="trailing" secondItem="38e-HQ-Z1o" secondAttribute="trailing" constant="91" id="Tui-Wg-z0n"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="audioButton" destination="Ofh-2h-VOr" id="Qiv-oT-YEW"/>
+                <outlet property="micButton" destination="6Ch-xE-xS4" id="BeF-SI-UuN"/>
+                <outlet property="wordEnglishLabel" destination="38e-HQ-Z1o" id="hQR-mw-U5b"/>
+                <outlet property="wordTurkishLabel" destination="N23-TY-5Gr" id="jhg-zu-DOo"/>
+            </connections>
+            <point key="canvasLocation" x="249.61832061068702" y="28.87323943661972"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="mic.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="speaker.wave.2.circle.fill" catalog="system" width="128" height="123"/>
+    </resources>
+</document>
